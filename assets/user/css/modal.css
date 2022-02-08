@@ -1,0 +1,41 @@
+/* Modal CSS */
+
+.modal-container, .alert-modal-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 99;
+    height: 100%;
+    background-color: #0000008f;
+}
+.modal-content {
+    top: 40px;
+    padding: 0;
+}
+.modal-header{
+	background-color: #f74362;
+    border-radius: 4px 3px 0 0;
+    color: white;
+}
+.modal-header .close {
+    color: white;
+    opacity: 0.8;
+}
+.btn-primary {
+    background-color: #f74362;
+    border-color: #f74362;
+}
+.btn-primary:hover{
+
+}
+.home-image {
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    margin: 20px 0;
+}
+.home-image img {
+    width: 90%;
+}
